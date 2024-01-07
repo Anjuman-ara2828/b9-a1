@@ -1,36 +1,121 @@
-body{
+body {
     font-family: 'Merriweather', serif;
-    width:80%;
-    margin:0 auto;
+    width: 80%;
+    margin: 0 auto;
 }
 
-.header{
+.header {
     background-image: url("../resources/Banner\ Image.png");
-    
+
     height: 600px;
     background-repeat: no-repeat;
     margin-top: 50px;
 }
-.header-title{
+
+.header-title {
     color: #FFF;
-text-align: center;
-font-size: 32px;
-font-weight: 400;
-margin-top:177px;
-margin-bottom: 16px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 177px;
+    margin-bottom: 16px;
 
 }
-.header-title-two{
+
+.header-title-two {
     color: #FFF;
     text-align: center;
     font-size: 72px;
     font-weight: 900;
-    margin-top:0px;
+    margin-top: 0px;
     /* line-height: 95px; */
 }
-.title-parent{
+
+.title-parent {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.title {
+    color: #F00;
+    font-size: 88px;
+    font-weight: 700;
+    font-family: Inter;
+    margin-bottom: 45px;
+
+}
+
+.title-description {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    
+}
+.title-main{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+}
+.title-photo{
+    text-align: center;
+}
+.resume-content{
+    background-image: url("../resources/Vectorrr.png");
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    /* justify-content: space-around; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+    
+}
+
+
+.resume-title{
+    color: #FFF;
+font-size: 64px;
+font-weight: 900;
+line-height: 88px;
+letter-spacing: 7.04px;
+}
+.resume-description{
+    color: rgba(255, 255, 255, 0.80);
+
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; 
+}
+.btn-primary{
+    color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+
+font-weight: 700;
+background-color: #070211;
+text-transform: uppercase;
+border: 0;
+}
+.section-description{
+    color: #070211;
+font-family: Inter;
+font-size: 32px;
+
+font-weight: 600;
+line-height: 56px;
+text-align: center;
+text-transform: capitalize;
+background-color: lightcoral;
+ width: 80%;
+ margin: 120px;
+ padding: 120px;
+ 
+
 }
