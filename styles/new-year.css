@@ -52,17 +52,20 @@ body {
     font-family: Inter;
     font-size: 24px;
     font-weight: 500;
-    
+
 }
-.title-main{
+
+.title-main {
     color: #070211;
     font-size: 48px;
     font-weight: 700;
 }
-.title-photo{
+
+.title-photo {
     text-align: center;
 }
-.resume-content{
+
+.resume-content {
     background-image: url("../resources/Vectorrr.png");
     height: 600px;
     background-repeat: no-repeat;
@@ -71,101 +74,182 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 60px;
-    
-    
+
+
 }
 
 
-.resume-title{
+.resume-title {
     color: #FFF;
-font-size: 64px;
-font-weight: 900;
-line-height: 88px;
-letter-spacing: 7.04px;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
 }
-.resume-description{
+
+.resume-description {
     color: rgba(255, 255, 255, 0.80);
 
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-line-height: 30px; 
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
 }
-.btn-primary{
+
+.btn-primary {
     color: #FFF;
 
-text-align: center;
-font-family: Inter;
-font-size: 20px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
 
-font-weight: 700;
-background-color: #070211;
-text-transform: uppercase;
-border: 0;
+    font-weight: 700;
+    background-color: #070211;
+    text-transform: uppercase;
+    border: 0;
 }
-.section-description{
+
+.section-description {
     color: #070211;
-font-family: Inter;
-font-size: 32px;
+    font-family: Inter;
+    font-size: 32px;
+     background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
 
-font-weight: 600;
-line-height: 56px;
-text-align: center;
-text-transform: capitalize;
- background-color: lightpink;
+     margin-bottom: 120px;
+    font-weight: 600;
+    line-height: 56px;
+    text-align: center;
+    text-transform: capitalize;
+    
 
- 
- width: 80%;
- margin-top: 120px;
- padding: 120px;
- 
+
+    width: 80%;
+    margin-top: 120px;
+    padding: 120px;
+
 
 }
-.red{
+
+.red {
     color: #F00;
 }
-.btn-secondary{
+
+.btn-secondary {
     color: #FFF;
-text-align: center;
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-text-transform: uppercase;
-border-radius: 8px;
-background: #F00;
-border: 1px solid #F00;
-padding: 16px 32px;
-border-top: 50px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 8px;
+    background: #F00;
+    border: 1px solid #F00;
+    padding: 16px 32px;
+    border-top: 50px;
 }
-.resume-again{
+
+.resume-again {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.resume-again-title{
+
+.resume-again-title {
     color: #F00;
 
 
-font-family: Inter;
-font-size: 24px;
+    font-family: Inter;
+    font-size: 24px;
 
-font-weight: 500;
+    font-weight: 500;
 }
-.resume-again-sub-title{
+
+.resume-again-sub-title {
     color: #070211;
 
-font-family: Merriweather;
-font-size: 48px;
+    font-family: Merriweather;
+    font-size: 48px;
 
-font-weight: 900;
+    font-weight: 900;
 
-text-transform: capitalize;
+    text-transform: capitalize;
 
 }
-.resume-again-description{
+
+.resume-again-description {
     color: rgba(7, 2, 17, 0.60);
 
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; 
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.second-photo-main {
+    border-radius: 364px;
+    background-color: #FFF;
+    /* border: 10px;
+    border-radius: 100%; */
+}
+
+.second-photo {
+    border-radius: 100%;
+    border: 25px solid #FFF;
+}
+
+.second-photo-border {
+    border: 15px solid #F00;
+    border-radius: 100%;
+}
+
+#year {
+    color: #F00;
+
+    font-family: Inter;
+    font-size: 48px;
+
+    font-weight: 700;
+
+
+}
+
+#year-description {
+    color: rgba(7, 2, 17, 0.60);
+
+    font-family: Inter;
+    font-size: 20px;
+
+    font-weight: 400;
+    line-height: 32px;
+}
+
+#happy {
+    width: 140px;
+    height: 140px;
+}
+.together{
+    display: flex;
+}
+.again-header{
+  
+    color: #070211;
+    
+    font-family: Inter;
+    font-size: 24px;
+    
+    font-weight: 500;
+    
+}
+.second-again-header{
+    color: #070211;
+    
+    font-size: 72px;
+  
+    font-weight: 900;
+    
+    
+}
+.d-flex{
+    display: flex;
 }
