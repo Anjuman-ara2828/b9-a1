@@ -253,3 +253,88 @@ body {
 .d-flex{
     display: flex;
 }
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.subscribe{
+   text-align: center;
+   padding-top: 80px;
+}
+.btn-subscribe{
+    color: rgba(7, 2, 17, 0.30);
+
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    /* width: 648px;
+height: 72px; */
+    
+}
+.subscribe-section{
+    width: 1320px;
+height: 616px;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+/* margin: 120px;
+margin: 0 auto; */
+
+
+}
+.btn-third{
+    color: #FFF;
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+
+font-weight: 600;
+
+text-transform: capitalize;
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+width: 210px;
+height: 72px;
+}
+.subscribe-title{
+    color: #070211;
+text-align: center;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+}
+.subscribe-description{
+    color: rgba(7, 2, 17, 0.60);
+
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+}
+.foot{
+    display: flex;
+    gap: 300px;
+    background-color: #070211;
+    /* color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+
+font-weight: 500;
+line-height: 40px;  */
+}
+.foot-description-1{
+    color: #FFF;
+
+    font-family: Inter;
+    font-size: 24px;
+    
+    font-weight: 500;
+    line-height: 40px;
+   
+}
