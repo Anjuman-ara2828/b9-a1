@@ -1,15 +1,23 @@
 body {
     font-family: 'Merriweather', serif;
+    
+}
+.body{
     width: 80%;
     margin: 0 auto;
 }
+footer{
+    margin-top:120px;
+}
 
 .header {
-    background-image: url("../resources/Banner\ Image.png");
-
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),url("../resources/Banner\ Image.png");
     height: 600px;
     background-repeat: no-repeat;
     margin-top: 50px;
+    background-size: cover;
 }
 
 .header-title {
@@ -64,9 +72,13 @@ body {
 .title-photo {
     text-align: center;
 }
-
+.photo img{
+    background-blend-mode: darken, luminosity;
+}
 .resume-content {
-    background-image: url("../resources/Vectorrr.png");
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)),url("../resources/Vectorrr.png");
     height: 600px;
     background-repeat: no-repeat;
     display: flex;
@@ -74,6 +86,9 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 60px;
+    background-size: cover;
+    padding-left: 30px;
+    padding-right: 30px;
 
 
 }
@@ -150,8 +165,9 @@ body {
 
 .resume-again {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+
 }
 
 .resume-again-title {
@@ -234,7 +250,7 @@ body {
 .again-header{
   
     color: #070211;
-    
+    margin-top:120px;
     font-family: Inter;
     font-size: 24px;
     
@@ -243,12 +259,50 @@ body {
 }
 .second-again-header{
     color: #070211;
-    
+    margin-top:16px;
     font-size: 72px;
-  
+  margin-bottom:16px;
     font-weight: 900;
     
     
+    
+}
+.red-title{
+    color: #F00;
+
+font-family: Inter;
+font-size: 24px;
+
+font-weight: 500;
+margin-top: 120px;
+margin-bottom: 16px;
+
+}
+.title-h{
+    color: #070211;
+    margin-top: 0px;
+    margin-bottom: 16px;
+
+
+font-size: 48px;
+
+font-weight: 900;
+
+text-transform: capitalize;
+}
+.des-h{
+    color: rgba(7, 2, 17, 0.60);
+
+font-family: Inter;
+font-size: 20px;
+
+font-weight: 400;
+line-height: 32px;
+}
+.des{
+   text-align: center; 
+   width: 50%; 
+   margin: 0 auto;   
 }
 .d-flex{
     display: flex;
@@ -266,13 +320,13 @@ body {
 }
 .btn-subscribe{
     color: rgba(7, 2, 17, 0.30);
-
+border:none;
     text-align: center;
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
-    /* width: 648px;
-height: 72px; */
+    
+height: 65px;
     
 }
 .subscribe-section{
@@ -287,11 +341,11 @@ margin: 0 auto; */
 }
 .btn-third{
     color: #FFF;
-
+width:210px;
 text-align: center;
 font-family: Inter;
 font-size: 20px;
-
+border:none;
 font-weight: 600;
 
 text-transform: capitalize;
@@ -317,24 +371,104 @@ font-weight: 400;
 line-height: 32px; 
 }
 .foot{
-    display: flex;
-    gap: 300px;
+   
+   padding: 140px;
     background-color: #070211;
-    /* color: #FFF;
-
-font-family: Inter;
-font-size: 24px;
-
-font-weight: 500;
-line-height: 40px;  */
+   
 }
 .foot-description-1{
     color: #FFF;
-
+display:flex;
+align-items:center;
+justify-content: center;
     font-family: Inter;
     font-size: 24px;
     
     font-weight: 500;
     line-height: 40px;
    
+}
+.foot-two{
+    display: flex;
+   justify-content: space-between;
+}
+.facebook{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+   
+    
+    margin-top: 30px;
+  
+}
+
+.facebook img {
+    margin-right: 24px;
+    width: 64px;
+    height:64px;
+}
+/* .insta{
+    width: 64px;
+height: 64px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+} */
+.foot-finish{
+    color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+
+font-weight: 500;
+display: flex;
+justify-content: space-between;
+}
+.btn-fourth{
+    background-color: #070211;
+    color: #FFF;
+
+font-family: Inter;
+font-size: 24px;
+
+font-weight: 500;
+border: 1px solid #070211;
+}
+
+.border{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn-sub-input{
+    height:65px;
+    border-radius:50px 0px 0px 50px;
+    background-color: #FFFFFF;
+    border:none;
+    width:440px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.bag{
+    gap: 24px;
+    
+}
+.bag img{
+    width: 424px;
+height: 450px;
+}
+.second-pic{
+    border-radius: 16px;
+    display: flex;
+    gap: 24px;
+    margin-top: 24px;
+}
+.function{
+    text-align: center;
+}
+.margin-left{
+    margin-left: 10px;
 }
